@@ -8,24 +8,24 @@ $(document).ready(function () {
         $("form#pizzaform").find("div.setcont.defaultcont").next().removeClass("defaultcont");
     });
     // pizza sizes
-    let small = { name: "small", price: 300 };
-    let medium = { name: "small", price: 450 };
-    let large = { name: "small", price: 700 };
+    let small = { name: "small", price: 750 };
+    let medium = { name: "small", price: 1000 };
+    let large = { name: "small", price: 1437 };
 
     //piza toppings
-    let pepperoni = { name: "Pepperoni", price: 23 };
-    let sausage = { name: "Sausage", price: 25 };
-    let mushroom = { name: "Mushroom", price: 89 };
-    let greenPepper = { name: "Green Pepper", price: 85 };
-    let olive = { name: "Olive", price: 45 };
-    let onions = { name: "Onions", price: 42 };
-    let extraCheese = { name: "Extra Cheese", price: 12 };
-    let pineapple = { name: "Pineapple", price: 89 };
+    let pepperoni = { name: "Pepperoni", price: 60 };
+    let sausage = { name: "Sausage", price: 40 };
+    let mushroom = { name: "Mushroom", price: 100 };
+    let greenPepper = { name: "Green Pepper", price: 50 };
+    let olive = { name: "Olive", price: 50 };
+    let onions = { name: "Onions", price: 30 };
+    let extraCheese = { name: "Extra Cheese", price: 150 };
+    let pineapple = { name: "Pineapple", price: 100 };
 
     //pizza crusts
-    let cripsy = { name: "Crispy", price: 89 }
-    let stuffed = { name: "Stuffed", price: 120 }
-    let gluttenFree = { name: "Glutten Free", price: 60 }
+    let cripsy = { name: "Crispy", price: 200 }
+    let stuffed = { name: "Stuffed", price: 250 }
+    let gluttenFree = { name: "Glutten Free", price: 300 }
 
 
     let getCheckedSize = function () {
