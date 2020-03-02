@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/bootstrap.css">
+    <link rel="stylesheet" href="static/css/styles.css">
+    <script src="static/js/jquery-3.4.1.js"></script>
+    <script src="static/js/bootstrap.js"></script>
+    <script src="static/js/script.js"></script>
+    <title>Home - PapaJonas Pizzaria</title>
+</head>
+<body>
+    <div class="container-fluid" id="landing-page">
+        <nav class="navbar navbar-expand-lg fixed-top navigation navbar-light">
+            <button class ="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content" aria-controls="nav-content" aria-label="Toggle nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="nav-content">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Order</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Restaurant</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Buy It Now!</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+
+        <div class="row justify-content-center align-items-center min-vh-100">
+            <form action="#" class="form-horizontal" id="pizzaform">
+                <div class="form-group card setcont defaultcont" id="pizzasize" >
+                    <h3>Which Size Do You Prefer?</h3>
+                    <label><input type="radio" name="size" value="1">Small</label>
+                    <label
+                    ￼Mushrom><input type="radio" name="size" value="2">Medium</label>
+                    <label><input type="radio" name="size" value="3">Large</label>
+                </div>
+
+                <div class="form-group card setcont " id="pizzacrust" >
+                    <h3>What Kind of Crust?</h3>
+                    <label>
+                        <input type="radio" name="crust" value="1">Crispy
+                    </label>
+                    <label>
+                        <input type="radio" name="crust" value="2">Stuffed
+                    </label>
+                    <label>
+                        <input type="radio" name="crust" value="3">Gluten-free
+                    </label>
+                </div>
+
+                <div class="form-group card setcont " id="pizzatopping" >
+                    <h3>Which Topping?</h3>
+                    <label> <input type="radio" name="topping" Value="1">pepperoni</label>
+                    <label> <input type="radio" name="topping" value="2">sausage</label>
+                    <label> <input type="radio" name="topping" value="3">Mushrom</label>
+                    <label> <input type="radio" name="topping" value="4">Green Pepper</label>
+                    <label> <input type="radio" name="topping" value="5">Olive</label>
+                    <label> <input type="radio" name="topping" value="6">Onions</label>
+                    <label> <input type="radio" name="topping" value="7">Extra Cheese</label>
+                    <label> <input type="radio" name="topping" value="8">Pineapple</label>
+                </div>
+
+                <div class="form-group card setcont " id="pizzanumbers" >
+                    <h3>Number Of Pizzas</h3>
+                    <label><input type="radio" name="number" value="1">One</label>
+                    <label><input type="radio" name="number" value="2">Two</label>
+                    <label><input type="radio" name="number" value="3">Three</label>
+                    <label><input type="radio" name="number" value="4">Four</label>
+                    <label><input type="radio" name="number" value="custom">Other
+                        <input type="number" min="1" name="numbers" class="form-control">
+                    </label>
+                </div>
+
+                <div class="form-group card setcont " id="pizzadelivery" >
+                    <h3>Do you want it delivered?</h3>
+                    <label class="border border-success p-2 rounded">
+                        <input type="radio" value="yes" name="delivery" id="yes">Yes
+                            <input type="text" name="uname" class="form-control m-1" placeholder="Your Name">
+                            <input type="text" name="pbox" class="form-control m-1" placeholder="Your P.O. Box">
+                        <input type="text" name="ptown" class="form-control m-1" placeholder="Postal Town">
+                    </label>
+                    <label>
+                        <input type="radio" value="no" name="delivery" id="no"> No
+                    </label>
+                </div>
+
+                <div class="form-group card setcont " id="pizzacheckout">
+                    <h3>Checkout</h3>
+                    <h4>Your total expenditure is Kshs <span id="costscreen" class="text-danger">0</span>, for: </h4> 
+                    <ul class="small" id="items">
+
+                    </ul>
+                    <h5>Delivery Address</h5>
+                    <p class="addressscreen"></p>
+                    <h4>Confirm Payment</h4>
+                    <input type="submit" value="Confirm Payment" class="btn btn-success">
+                </div>
+
+                <div class="prev-next row justify-content-center align-items-center">
+                    <div class="form-group text-center">
+                        <input type="button" value="Previous" class="btn btn-danger">
+                        <input type="button" value="Proceed" class="btn navigation">
+                    </div>
+                </div>
+                
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
