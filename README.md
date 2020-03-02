@@ -13,7 +13,7 @@ Pizzaland Amazing. https://najlarashid.github.io/pizza
 * Open Terminal {Ctrl+Alt+T}
 
 * git clone
-* cd Delani-Studio
+* cd pizza
 
 * code . or atom . depending on the text editor of your choise.
 
