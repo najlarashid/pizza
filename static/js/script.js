@@ -24,8 +24,8 @@ $(document).ready(function () {
 
     //pizza crusts
     let cripsy = { name: "Crispy", price: 200 }
-    let stuffed = { name: "Stuffed", price: 250 }
-    let gluttenFree = { name: "Glutten Free", price: 300 }
+    let stuffed = { name: "Stuffed", price: 120 }
+    let gluttenFree = { name: "Glutten Free", price: 60 }
 
 
     let getCheckedSize = function () {
