@@ -11,8 +11,6 @@ Pizzaland Amazing. https://najlarashid.github.io/pizza
 
 ## Installation / Setup instruction
 * Open Terminal {Ctrl+Alt+T}
-
-* git clone
 * cd pizza
 
 * code . or atom . depending on the text editor of your choise.
